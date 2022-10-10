@@ -1,0 +1,56 @@
+libdevel-checkcompiler-perl (0.07-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * debian/upstream/metadata: use HTTPS for GitHub URLs.
+  * Import upstream version 0.07.
+  * Update build dependencies. and debhelper version/compat level.
+  * Declare compliance with Debian Policy 3.9.8.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 27 Dec 2016 23:58:27 +0100
+
+libdevel-checkcompiler-perl (0.06-1) unstable; urgency=medium
+
+  * Add debian/upstream/metadata
+  * Import upstream version 0.06
+
+ -- Axel Beckert <abe@debian.org>  Sat, 04 Jul 2015 02:48:22 +0200
+
+libdevel-checkcompiler-perl (0.05-2) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Axel Beckert ]
+  * Mark package as autopkgtestable
+  * Declare compliance with Debian Policy 3.9.6
+  * Add explicit build dependency on libmodule-build-perl
+  * Revamp long package description. Fixes lintian warning
+    extended-description-is-probably-too-short.
+
+ -- Axel Beckert <abe@debian.org>  Sat, 06 Jun 2015 17:46:37 +0200
+
+libdevel-checkcompiler-perl (0.05-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Don't install boilerplate README.md.
+  * Drop a contributor from the list of copyright holders.
+  * Lower debhelper compatibility level to 8.
+  * Make short description a noun phrase.
+
+  [ Axel Beckert ]
+  * Apply wrap-and-sort
+
+ -- Axel Beckert <abe@debian.org>  Fri, 10 Jan 2014 02:30:28 +0100
+
+libdevel-checkcompiler-perl (0.04-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #731053)
+
+ -- Axel Beckert <abe@debian.org>  Sun, 1 Dec 2013 20:00:06 +0100

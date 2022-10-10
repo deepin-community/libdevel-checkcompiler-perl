@@ -1,0 +1,22 @@
+Source: libdevel-checkcompiler-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Axel Beckert <abe@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 9.20140227~),
+               libmodule-build-tiny-perl,
+               perl
+Standards-Version: 3.9.8
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libdevel-checkcompiler-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libdevel-checkcompiler-perl.git
+Homepage: https://metacpan.org/release/Devel-CheckCompiler
+
+Package: libdevel-checkcompiler-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: module for checking compiler availability
+ Devel::CheckCompiler checks the availability of a C99 compiler. It
+ provides the function check_c99_or_exit which returns false if no C99
+ compiler is available.
